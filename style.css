@@ -1,0 +1,116 @@
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size:50px;
+}
+
+p {
+	font-size:70px;
+	text-align:center;
+	font-family: 'VT323', monospace;
+}
+
+h2 {
+	text-align:left;
+	color:black;
+	font-size:20px;
+	font-family: 'VT323', monospace;
+}
+
+img {
+	text-align:center;
+	height:225px;
+	width:300px;2
+}
+
+.img-div {
+	text-align: center;
+}
+
+#aboutauthor {
+	text-align:left;
+	font-size:25px;
+	font-family: 'VT323', monospace;
+	color:white;
+}
+
+#start {
+	font-size:15px;
+	text-align:center;
+	font-family: 'Press Start 2P', monospace;
+
+}
+
+#authorpic1 {
+	height:25%;
+	width:25%;
+}
+
+body {
+	font-family:'VT323', monospace;
+	color:snow;
+}
+
+a.ui-link{
+	font-family:'VT323', monospace;
+	font-size:20px;
+}
+
+a.ui-btn.ui-btn-inline {
+	font-family:'VT323', monospace;
+	font-size:20px;
+}
+
+#instruct-body {
+	font-size:25px;
+	text-align:left;
+	font-family: 'VT323', monospace;
+	}
+
+#instruct-img {
+	width:200px;
+	height:200px;
+	text-align:center;
+}
+
+#snake-image {
+	text-align:center;
+}
+
+
+
+#game-div {
+  text-align:center;
+  top-margin: 20px;
+}
+.rps-img {
+  width:15%;
+  height:15%;
+  background-color:white;
+  border:50px solid white;
+  border-radius:900px
+}
+#rps-body {
+  font-size:20px;
+  text-align:center;
+  top-margin:30px;
+  font-family:'VT323' ,monospace;
+}
+
+.rps-head {
+  border:5px solid white;
+}
+
+#instruct-rps {
+	font-size:25px;
+}
+#instruct-img1 {
+	width:300px;
+	height:200px;
+}
+#rps-img1 {
+	text-align:center;
+}
+
+
+

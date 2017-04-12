@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Press+Start+2P" rel="stylesheet">
+	<script src="script.js"></script>
 </head>
 <body>
 
@@ -43,13 +44,16 @@
 		<a href="#secondPage" class="ui-btn ui-btn-inline ui-icon-arrow-r ui-btn-icon-right" data-transition=slide>SNAKE</a>
 		<p>ROCK PAPER SCISSORS</p>
     	<div class=rps-head>
-      		<p id="rps-body"> Your Score: 0 Computer's Score: 0 </p>
+      		<p id="rps-body"> Your Score: <span id="yourscore">0</span> Computer's Score: <span id="cscore">0</span> </p>
     	</div>
-      	<p id="rps-body">Click one of the three to begin</p>
+      	<p id="rpsbody">Click one of the three to begin</p>
         <div id="game-div">
-          	<img class=rps-img src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
-          	<img class=rps-img src="http://icons.veryicon.com/ico/System/Icons8%20Metro%20Style/Rock%20Paper%20Scissors%20Paper.ico">
-          	<img class=rps-img src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+          	<img id="rock" class=rps-img src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
+          	<img id="paper" class=rps-img src="http://icons.veryicon.com/ico/System/Icons8%20Metro%20Style/Rock%20Paper%20Scissors%20Paper.ico">
+          	<img id="scissors" class=rps-img src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+        </div>
+        <div id=resetbutton>
+        	<button id=button class="ui-btn ui-btn-inline">Reset</button>
         </div>
 		<div data-role="footer">
 			<h4>&#169; STEPHANIE YOON 2017</h4>

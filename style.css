@@ -84,10 +84,10 @@ a.ui-btn.ui-btn-inline {
   top-margin: 20px;
 }
 .rps-img {
-  width:10%;
-  height:10%;
+  width:15%;
+  height:15%;
   background-color:white;
-  border:40px solid white;
+  border:20px solid white;
   border-radius:120px
 }
 #rps-body {
